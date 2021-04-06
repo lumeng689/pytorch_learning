@@ -4,7 +4,7 @@ def cut_rod1(p, n):
 
     q = -1
 
-    for i in range(1, n + 1t):
+    for i in range(1, n + 1):
         q = max(q, p[i] + cut_rod1(p, n - i))
 
     return q
